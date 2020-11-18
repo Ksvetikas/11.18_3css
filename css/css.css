@@ -1,0 +1,90 @@
+body {
+  height: 1300px;
+}
+
+.h1 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pirmas-didelis {
+  position: relative;
+  left: calc(100% / 5);
+  top: 10px;
+  z-index: -1;
+  background: tomato;
+  width: 60%;
+  height: 600px;
+
+}
+
+.antras-didelis {
+  position: relative;
+  left: calc(100% / 5);
+  top: 30px;
+  margin-top: 10px;
+  z-index: -1;
+  background: tomato;
+  width: 60%;
+  height: 600px;
+}
+
+.pirmas-mazas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  border: 1px solid tomato;
+  background: white;
+
+}
+
+.antras-mazas {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid tomato;
+  background: white;
+
+
+}
+
+.trecias-mazas{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 1px solid tomato;
+  background: white;
+
+
+}
+
+.ketvirtas-mazas{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 1px solid tomato;
+  background: white;
+
+
+}
+
+.penktas-mazas{
+  width: calc(100% / 3);
+  height: 50%;
+  position: absolute;
+  top: calc((100% / 2) - 25%);
+  right: calc(100% / 3);
+  background: white;
+}
